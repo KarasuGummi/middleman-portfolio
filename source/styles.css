@@ -1,0 +1,22 @@
+.section {
+  text-align: center;
+  font-size: 3em;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+#section2 {
+  background-image: url('');
+}
+
+#section4 {
+  background-image: url('');
+}
+
+.section {
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+}
