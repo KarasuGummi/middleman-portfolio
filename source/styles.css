@@ -1,22 +1,28 @@
 .section {
   text-align: center;
   font-size: 3em;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
 }
 
 .fp-watermark {
   display: none;
 }
 
+#section1 {
+  background-image: url('images/black_sand.jpg');
+  color: white;
+}
+
+#name {
+  font-size: 120px;
+}
+
 #section2 {
-  background-image: url('');
+  background-image: url('images/desk.jpg');
 }
 
 #section4 {
-  background-image: url('');
-}
-
-.section {
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
+  background-image: url('images/keyboard.jpg');
 }
