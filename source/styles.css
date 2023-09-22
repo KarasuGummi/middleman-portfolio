@@ -11,6 +11,8 @@
   display: none;
 }
 
+/* title page */
+
 #section1 {
   background-image: url('images/black_sand.jpg');
   color: white;
@@ -20,14 +22,47 @@
   font-size: 120px;
 }
 
+/* about me */
+
 #section2 {
   background-image: url('images/desk.jpg');
 }
+
+#profile {
+  height: 620px;
+  border-radius: 8px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#about p,
+#about h2 {
+  margin-left: 20px;
+}
+
+#about p {
+  font-size: 32px;
+  color: cyan;
+}
+
+#about h2 {
+  font-size: 48px;
+}
+
+/* projects */
 
 #section3 {
   background-image: url('images/cages.jpeg');
   opacity: 70%;
 }
+
+/* contact info */
 
 #section4 {
   background-image: url('images/keyboard.jpg');
