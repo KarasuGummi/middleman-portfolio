@@ -68,3 +68,10 @@
   background-image: url('images/keyboard.jpg');
   opacity: 80%;
 }
+
+/* changes navigation ui colors */
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span{
+  background: white;
+}
