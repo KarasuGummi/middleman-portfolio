@@ -69,8 +69,19 @@
   opacity: 80%;
 }
 
+.card-white {
+  background: white;
+  opacity: 70%;
+  width: 400px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px grey;
+}
+
 #social h2 {
   font-size: 48px;
+  color: cyan;
 }
 
 /* changes navigation ui colors */
