@@ -58,14 +58,14 @@
 /* projects */
 
 #section3 {
-  background-image: url('images/cages.jpeg');
+  background-image: url('images/keyboard.jpg');
   opacity: 70%;
 }
 
 /* contact info */
 
 #section4 {
-  background-image: url('images/keyboard.jpg');
+  background-image: url('');
   opacity: 80%;
 }
 
@@ -81,7 +81,7 @@
 
 #social h2 {
   font-size: 48px;
-  color: cyan;
+  color: blue;
 }
 
 /* changes navigation ui colors */
