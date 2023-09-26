@@ -2,7 +2,7 @@ new fullpage('#fullpage', {
   //options here
   autoScrolling: true,
   scrollHorizontally: true,
-  sectionsColor : ['#fe5f46', '#0998ec', '#fc6c7c', '#fec304'],
+  sectionsColor : ['#000000', '#000000', '#000000', '#16425B'],
   navigation: true,
   navigationPosition: 'left',
   slidesNavigation: true,
