@@ -1,7 +1,6 @@
 .section {
   text-align: center;
   font-size: 3em;
-  color: white;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -15,7 +14,7 @@
 
 #section1 {
   background-image: url('images/black_sand.jpg');
-  color: white;
+  color: #D9DCD6;
 }
 
 #name {
@@ -48,11 +47,12 @@
 
 #about p {
   font-size: 32px;
-  color: cyan;
+  color: #81C3D7;
 }
 
 #about h2 {
   font-size: 48px;
+  color: #D9DCD6;
 }
 
 /* projects */
@@ -60,6 +60,11 @@
 #section3 {
   background-image: url('images/keyboard.jpg');
   opacity: 70%;
+  color: #D9DCD6;
+}
+
+#p_info {
+  color: #D9DCD6;
 }
 
 /* contact info */
@@ -79,9 +84,10 @@
   box-shadow: 0px 10px 30px grey;
 }
 
-#social h2 {
+#social h2, #social a {
   font-size: 48px;
-  color: blue;
+  color: #2F6690;
+  text-decoration: none;
 }
 
 /* changes navigation ui colors */

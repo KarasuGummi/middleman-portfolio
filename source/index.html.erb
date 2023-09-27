@@ -29,7 +29,11 @@
   </div>
 
   <div class="section" id="section3">
-      <div class="slide">Projects</div>
+      <div class="slide" id="p_intro">
+        <h1>Projects</h1>
+        <br>
+        Some things that I've worked on!
+      </div>
       <div class="slide">Project #1</div>
       <div class="slide">Project #2</div>
   </div>
@@ -38,12 +42,25 @@
     <div class="card-white" id="social">
           <h2>Social Links</h2>
           <br>
-          <a href="https://github.com/KarasuGummi" target="_blank">
+          <a href="https://github.com/KarasuGummi" target="_blank" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
             <i class="fa-brands fa-github fa-2xl"></i>
           </a>
-          <a href="https://www.linkedin.com/in/curtis-lu/" target="_blank">
+          <a href="https://www.linkedin.com/in/curtis-lu/" target="_blank" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
             <i class="fa-brands fa-linkedin fa-2xl"></i>
           </a>
+          <a href="https://www.facebook.com/KarasuGummi" target="_blank" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          </a>
+
+          <script>
+            function mouseOver(link) {
+              link.style.color = '#3A7CA5';
+            }
+
+            function mouseOut(link) {
+              link.style.color = '';
+            }
+          </script>
       </div>
   </div>
 
