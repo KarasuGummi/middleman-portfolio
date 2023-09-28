@@ -25,7 +25,7 @@
 /* about me */
 
 #section2 {
-  background-image: url('images/desk.jpg');
+  background-image: url('images/keyboard.jpg');
 }
 
 #profile {
@@ -58,15 +58,31 @@
 
 /* projects */
 
-#section3 {
+#p_info {
   background-image: url('images/keyboard.jpg');
-  opacity: 70%;
   color: #D9DCD6;
 }
 
 #p_info h1 {
   color: #D9DCD6;
   font-size: 200px;
+}
+
+.content {
+  color: #D9DCD6;
+}
+
+.content h1 {
+  font-size: 100px;
+}
+
+.content h3 {
+  font-size: 60px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #2F6690;
 }
 
 /* contact info */
