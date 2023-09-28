@@ -58,12 +58,12 @@
 
 /* projects */
 
-#p_info {
+#p-info {
   background-image: url('images/keyboard.jpg');
   color: #D9DCD6;
 }
 
-#p_info h1 {
+#p-info h1 {
   color: #D9DCD6;
   font-size: 200px;
 }
@@ -82,7 +82,29 @@
 
 .content a {
   text-decoration: none;
-  color: #2F6690;
+  color: #D9DCD6;
+}
+
+#ontrack {
+  background-image: url('images/ontrack.png');
+}
+
+#okasan-food {
+  background-image: url('images/okasan.png');
+}
+
+#anime-wl {
+  background-image: url('images/anime_wl.png');
+}
+
+.project-card {
+  background: #16425B;
+  opacity: 0.99;
+  width: 1000px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px grey;
 }
 
 /* contact info */
